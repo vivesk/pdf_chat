@@ -11,7 +11,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 # api key config
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyA-SkyPS0wGAuQWw5yzHC0es2fOzntRUdM'
+os.environ['GOOGLE_API_KEY'] = 'YOUR_API_KEY'
 # define LLM
 llm_gemini = ChatGoogleGenerativeAI(model="gemini-pro")
 # define vector store file name
